@@ -1,10 +1,56 @@
+/*** BASIC GLOBAL STYLES ***/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.synopsis {
-  color: #7e8184;
-  font-style: italic;
+section,
+article,
+aside,
+footer,
+header,
+nav {
+  display: block;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+/*** END OF BASIC GLOBAL STYLES ***/
+
+.menu {
+  height: 100px;
+  background-color: #b2d6ff;
+}
+
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-color: #f09a9d;
+}
+
+.content {
+  height: 500px;
+  background-color: #f5cf8e;
+}
+
+.footer {
+  height: 200px;
+  background-color: #d6e9fe;
 }
