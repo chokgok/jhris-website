@@ -31,6 +31,7 @@ a:hover {
 a:active {
   color: red;
 }
+
 /*** END OF BASIC GLOBAL STYLES ***/
 
 .menu {
@@ -46,11 +47,68 @@ a:active {
 }
 
 .content {
+  float: left;
+  width: 650px;
   height: 500px;
   background-color: #f5cf8e;
+  padding: 20px;
+}
+
+.article-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 4px solid gray;
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .footer {
-  height: 200px;
+  overflow: hidden;
   background-color: #d6e9fe;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #eaedf0
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #b2d6ff
+}
+
+.avatar {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: #d6e9fe;
+}
+
+.username {
+  margin-top: 30px;
+}
+
+.comment {
+  height: 90px;
+  margin: 10px;
+  overflow: auto;
 }
