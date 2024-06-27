@@ -1,0 +1,34 @@
+/*** BASIC GLOBAL STYLES ***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section,
+article,
+aside,
+footer,
+header,
+nav {
+  display: block;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+/*** END OF BASIC GLOBAL STYLES ***/
